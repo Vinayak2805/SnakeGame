@@ -15,7 +15,7 @@ let snakeArr = [
 ];
 
 food = {x: 6, y: 7};
- musicSound.play();
+
 
 // Game Functions
 function main(ctime) {
@@ -50,7 +50,7 @@ function gameEngine(){
         inputDir =  {x: 0, y: 0}; 
         alert("Game Over\nPress any key to play again!");
         snakeArr = [{x: 13, y: 15}];
-       
+        musicSound.play();
         score = 0; 
     }
 
